@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="ja">
     <head>
-        <meta charaset="utf-8">
+        <meta charset="utf-8">
         <title>Microposts</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
     </head>
-    
+
     <body>
-        
-        @include('commons.navber')
+
+        @include('commons.navbar')
         
         <div class="container">
-          @include('commons.error_messages')
-          
-          @yield('content')
+            @include('commons.error_messages')
+            
+            @yield('content')
         </div>
         
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
